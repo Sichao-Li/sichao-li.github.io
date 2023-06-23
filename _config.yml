@@ -83,10 +83,10 @@ author:
   avatar           : "profile.png"
   bio              : "A second-year Ph.D. student at Australian National University (ANU), supervised by Prof. Amanda Barnard"
   location         : "Canberra"
-  employer         : "https://en.wikipedia.org/wiki/Amanda_Barnard"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : # ""
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=ylZQz2sAAAAJ&hl=en"
-  email            :
+  email            : "Sichao.Li@anu.edu.au"
   researchgate     :  "https://www.researchgate.net/profile/Sichao-Li-6"
   uri              :
   bitbucket        :
