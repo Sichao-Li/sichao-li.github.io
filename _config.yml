@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Sichao"
   avatar           : "profile.png"
-  bio              : "A second-year Ph.D. student at Australian National University (ANU), supervised by Prof. Amanda Barnard"
+  bio              : "A second-year Ph.D. student at Australian National University"
   location         : "Canberra"
   employer         : # ""
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -101,14 +101,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/sichao-li-1204/"
+  linkedin         : "sichao-li-1204/"
   orcid            : "https://orcid.org/0000-0002-0097-6754"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
