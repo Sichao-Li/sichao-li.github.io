@@ -35,5 +35,6 @@ Personal hobbies
 News!
 ======
 - 2023.06.22: Presented our work in IJCNN 2023, Gold Coast, Australia
+- 2023.06.24: Build the personal webpage, congrats to myself!
 
 
