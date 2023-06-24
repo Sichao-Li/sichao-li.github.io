@@ -12,17 +12,28 @@ Hi there! My name is Sichao, a Ph.D. Student at ANU. I am currently supervised b
 
 I will be always in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
 
-Research interest
+Research interests
 ======
-I have a broad interest in both Machine Learning and Computational Biology. In particular, I work on representation learning on graphs, deep graph clustering, combinatorial optimization and their applications in computational genomics, functional genomics, and multi-omics.
+I have a broad interest in both Explainable AI(XAI) and applied machine learning in the scientific domain, e.g. material science, physics, and chemistry.
+- Rashomon set exploration and explanation in general tasks
+- Integrating domain knowledge into the modeling process
+- Screening MXenes for high-capacity energy storage materials
 
-Graph Neural Networks: Temporal, Bipartite, and Multiplex/Multi-View Networks;
-Computational Genomics: Metagenomic Binning, Haplotype Phasing, and Function Prediction.
+Publications
+====
+My full publication lists can be found on [Google Scholar](https://scholar.google.com/citations?user=ylZQz2sAAAAJ&hl=en) page and [Researchgate](https://www.researchgate.net/profile/Sichao-Li-6) page.
+
+Feel free to drop me an email for a full-text request if you are interested in my work :relaxed:
 
 Personal hobbies
 ======
+- Ballislife :basketball: is one of my favorites! Please invite me if you are also playing basketball in Canberra :wink:
+- Foodie & cooker: love to try all kinds of food!  
+- Gym :runner: is the place to relax after work...
+- I also like reading :book: (in philosophy) and playing guitar :guitar: when I am free
 
 News!
 ======
+- 2023.06.22: Presented our work in IJCNN 2023, Gold Coast, Australia
 
 
