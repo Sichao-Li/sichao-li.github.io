@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Sichao"
 description              : &description "A second-year Ph.D. student at Australian National University (ANU)"
 url                      : https://sichaoli.github.io
-repository               : "Sichao-Li/sichaoli.github.io"
+repository               : #"Sichao-Li/sichaoli.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
