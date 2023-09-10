@@ -1,4 +1,4 @@
----
+ ---
 permalink: /
 title: "A brief bio"
 excerpt: "About me"
@@ -27,7 +27,7 @@ Feel free to drop me an email for a full-text request if you are interested in m
 
 Services
 ====
-Reviewer: ICML; Cell Reports Physical Science; Scientific Report
+Reviewer: ICML(2022); Neurips (2023); Cell Reports Physical Science; Scientific Report
 
 Personal hobbies
 ======
