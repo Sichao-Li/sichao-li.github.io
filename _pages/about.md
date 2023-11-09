@@ -27,7 +27,7 @@ Feel free to drop me an email for a full-text request if you are interested in m
 
 Services
 ====
-Reviewer: ICML; Neurips; Cell Reports Physical Science; Scientific Report
+Reviewer: ICML; Neurips; IJCNN; Cell Reports Physical Science; Scientific Report
 
 Personal hobbies
 ======
@@ -40,5 +40,7 @@ News!
 ======
 - 2023.06.22: Presented (oral) our work in IJCNN 2023, Gold Coast, Australia
 - 2023.06.24: Build the personal webpage, congrats to myself!
+- 2023.10.13: Our paper "Multi-Target Neural Network Predictions of Mxenes as High-Capacity Energy Storage Materials in a Rashomon Set" accepted by *Cell Reports Physical Science*
+- 2023.11.09: I am going to visit for teaching at Shandong University (Weihai)
 
 
