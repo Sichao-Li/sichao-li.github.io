@@ -41,6 +41,7 @@ News!
 - 2023.06.22: Presented (oral) our work in IJCNN 2023, Gold Coast, Australia
 - 2023.06.24: Build the personal webpage, congrats to myself!
 - 2023.10.13: Our paper "Multi-Target Neural Network Predictions of Mxenes as High-Capacity Energy Storage Materials in a Rashomon Set" accepted by *Cell Reports Physical Science*
-- 2023.11.09: I am going to visit for teaching at Shandong University (Weihai)
+- 2023.11.09: I am going to visit to teach at Shandong University (Weihai)
+- 2023.12.07: I am pleased to be selected as a "Highlighted Reviewer" of XAIA Neurips 2023.
 
 
