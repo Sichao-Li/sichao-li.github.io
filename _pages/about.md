@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "A brief bio"
+title: "Welcome!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,7 +10,7 @@ redirect_from:
 
 Hi there! My name is Sichao, a Ph.D. Student at Australian National University(ANU). I am currently supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). My B.S.M.E. was received from Shanghai Ocean University(SHOU) in 2018. 
 
-I will be always in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
+I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
 
 Research interests
 ======
