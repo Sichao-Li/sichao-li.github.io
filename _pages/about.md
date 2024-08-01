@@ -39,7 +39,7 @@ Personal hobbies
 
 News!
 ======
-- 2025.08.01: "Practical Attribution Guidance for Rashomon Sets" is online in arxiv.
+- 2024.08.01: "Practical Attribution Guidance for Rashomon Sets" is online in arxiv.
 - 2024.05.06: Presented *ICLR 2024* in Vienna, Austria. 
 - 2024.02.20: "Multi-Target Neural Network Predictions of Mxenes as High-Capacity Energy Storage Materials in a Rashomon Set" will be presented in SupercomputingAsia 2024, International Convention Centre Sydney, Australia.
 - 2024.02.16: "Vice Chancellor’s HDR Travel Grant" is approved.
