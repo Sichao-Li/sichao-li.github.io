@@ -12,13 +12,11 @@ Hi there! My name is Sichao, a final-year Ph.D. Student at Australian National U
 
 I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
 
-Research interests
+Research Interest and Philosophy
 ======
-I have a broad interest in both Explainable AI(XAI) and applied machine learning in the scientific domain, e.g. material science, physics, and chemistry, aka Ai4Science : )
-- Rashomon set exploration and explanation in general tasks
-- Integrating domain knowledge into the modeling process
-- Screening MXenes for high-capacity energy storage materials
-- Multi-modal multi-target regression task
+My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science.
+
+<img src="../images/Overview.png"  width="500" height="350">
 
 Publications
 ====
