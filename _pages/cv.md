@@ -11,30 +11,33 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechanical Engineering, Shanghai Ocean University, 2018
+* M.S. in Computer Science, Australian National University, 2020
+* Ph.D in Computational Science, Australian National University, 2024 (expected)
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* PhD with primary supervisor Prof. Amanda Barnard --- Design-driven Materials Intelligence
+  * Australian National University, Canberra
+  * Duties included: applying AI/ML to speed up material discovery
+ 
+* Research Assistant with supervisor Prof. Steve Blackburn --- The Dacapo Bench
+  * Australian National University, Canberra
+  * Duties included: Building Dacapo Benchmark on the latest version of JDK
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Assistant with supervisor Dr. Charles Martin --- Generating complex melodies on an
+Edge TPU
+  * Australian National University, Canberra
+  * Duties included: Deploying a Recurrent Neutral Network on an Edge TPU to generate music
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Scientific Problem Solving
+  * Defining and analyzing complex scientific problems
+  * Developing and implementing innovative data-driven and domain-driven methodologies
+* Explainable Artificial Intelligence
+  * Addressing the explanation disagreement problem in AI systems
+  * Bridging the gap between algorithms, human understanding, and real-world problem
 
 Publications
 ======
@@ -48,12 +51,12 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+Teaching and Supervising
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; Cell Reports Physical Science; Scientific Report
