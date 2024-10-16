@@ -10,8 +10,9 @@ location: "Canberra, Australia"
 
 Responsibilities
 ======
-I have been actively involving in various teaching, support of learning activities and supervising since 2019. I led labs and tutorials for groups of 20~40 undergraduate and 
-postgraduate students in various computing courses, including *Foundations of Computing*, *Introduction to Database 
+I have been actively involving in various teaching, support of learning activities and supervising, over *400* hours since 2019. 
+I led labs and tutorials for groups of 20~40 undergraduate and  postgraduate students in various computing courses, 
+including *Foundations of Computing*, *Introduction to Database 
 Concepts*, *Relational Database*, and *Computer Vision*. 
 
 In these sessions, which typically ran for two hours, I delivered
