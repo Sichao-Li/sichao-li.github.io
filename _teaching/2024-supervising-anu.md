@@ -1,7 +1,7 @@
 ---
 title: "Supervising Advanced Master Student in Australian National University"
 collection: teaching
-type: "Workshop"
+type: "Supervision"
 permalink: /teaching/2024-supervising-anu
 venue: "Australian National University"
 date: 2024-01-01
