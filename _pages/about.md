@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! My name is Sichao, a final-year Ph.D. Student at Australian National University(ANU). I am currently supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). My B.S.M.E. was received from Shanghai Ocean University(SHOU) in 2018. 
-
-I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
+Hi there! My name is Sichao, a final-year Ph.D. Student at Australian National University(ANU). I am currently supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
 
 Research Interest and Philosophy
 ======
-My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. Feel free to drop me an email for discussion if you are interested in my work :relaxed:
+My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. 
+
+*Feel free to drop me an email for discussion and collaboration if you are interested in my work* :relaxed:
 
 <img src="../images/Overview.png"  width="850" height="550">
 
@@ -37,7 +37,7 @@ Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; Cell Reports Physical Science; Sc
 
 Personal hobbies
 ======
-- Ballislife :basketball: is one of my favorites! Please invite me if you are also playing basketball in Canberra :wink:
+- Ballislife :basketball: is one of my favorites!
 - Foodie & cooker: love to try all kinds of food!  
 - Gym :runner: is the place to relax after work...
 - I also like reading :book: (in philosophy) and playing guitar :guitar: when I am free
