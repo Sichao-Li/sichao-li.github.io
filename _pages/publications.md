@@ -6,6 +6,6 @@ author_profile: true
 ---
 
 
-You can find my publications on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
+My full publication lists can be found on [Google Scholar](https://scholar.google.com/citations?user=ylZQz2sAAAAJ&hl=en) page and [Researchgate](https://www.researchgate.net/profile/Sichao-Li-6) page.
 
 
