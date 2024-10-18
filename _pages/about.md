@@ -14,7 +14,7 @@ I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https
 
 Research Interest and Philosophy
 ======
-My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science.
+My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. Feel free to drop me an email for discussion if you are interested in my work :relaxed:
 
 <img src="../images/Overview.png"  width="850" height="550">
 
@@ -31,12 +31,6 @@ News
 - 2023.06.24: Build the personal webpage, congrats to myself!
 - 2023.06.22: Presented (oral) our work in IJCNN 2023, Gold Coast, Australia
 
-Publications
-====
-My full publication lists can be found on [Google Scholar](https://scholar.google.com/citations?user=ylZQz2sAAAAJ&hl=en) page and [Researchgate](https://www.researchgate.net/profile/Sichao-Li-6) page.
-
-Feel free to drop me an email for a full-text request if you are interested in my work :relaxed:
-
 Services
 ====
 Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; Cell Reports Physical Science; Scientific Report
@@ -47,8 +41,6 @@ Personal hobbies
 - Foodie & cooker: love to try all kinds of food!  
 - Gym :runner: is the place to relax after work...
 - I also like reading :book: (in philosophy) and playing guitar :guitar: when I am free
-
-
 
 
 
