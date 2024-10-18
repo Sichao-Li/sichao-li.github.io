@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -44,6 +44,8 @@ Publications
 {% if site.author.googlescholar %}
   <div class="wordwrap">All my publications can be found on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+
+<br/><br/>
   
 Teaching and Supervising
 ======
