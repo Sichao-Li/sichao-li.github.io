@@ -19,7 +19,7 @@ Research Experience
 ======
 * PhD with primary supervisor Prof. Amanda Barnard --- Design-driven Materials Intelligence
   * Australian National University, Canberra
-  * Duties included: applying AI/ML to speed up material discovery
+  * Duties included: applying AI/ML to speed up the material discovery
  
 * Research Assistant with supervisor Prof. Steve Blackburn --- The Dacapo Bench
   * Australian National University, Canberra
@@ -41,15 +41,9 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+{% if site.author.googlescholar %}
+  <div class="wordwrap">All my publications can be found on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
   
 Teaching and Supervising
 ======
