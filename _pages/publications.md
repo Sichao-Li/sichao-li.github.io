@@ -21,7 +21,7 @@ Most of my publications can be found on [Google Scholar](https://scholar.google.
 🌐🔄⚛️[**Diverse Explanations from Data-driven and Domain-driven Perspectives for Machine Learning Models**](https://arxiv.org/abs/2402.00347)\
 **Sichao Li**, Amanda Barnard
 
-🔄🌐[**Expanation Agreement (TBA)**]
+🔄🌐[**Can we minimize explanation disagreement? (TBA)**]
 
 # Publications
 ---
