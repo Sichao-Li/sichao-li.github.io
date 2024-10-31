@@ -30,11 +30,11 @@ Most of my publications can be found on [Google Scholar](https://scholar.google.
 **Sichao Li**, Rong Wang, Quanling Deng, Amanda Barnard\
 *International Conference on Learning Representations (ICLR), (2024)*
 
-🌐⚛️[**Multi-target neural network predictions of MXenes as high-capacity energy storage materials in a Rashomon set**]()\
+🌐⚛️[**Multi-target neural network predictions of MXenes as high-capacity energy storage materials in a Rashomon set**](https://www.sciencedirect.com/science/article/pii/S2666386423005040)\
 **Sichao Li**, Amanda Barnard\
 *Cell Reports Physical Science, (2023)*
 
-🌐[**Variance tolerance factors for interpreting all neural networks**]()\
+🌐[**Variance tolerance factors for interpreting all neural networks**](https://arxiv.org/abs/2209.13858)\
 **Sichao Li**, Amanda Barnard\
 *International Joint Conference on Neural Networks (IJCNN), (2023)*
 
@@ -46,7 +46,7 @@ Most of my publications can be found on [Google Scholar](https://scholar.google.
 **Sichao Li**, Amanda Barnard\
 *Advanced Theory and Simulations, 5(2), 2100414, (2022)*
 
-⚛️[**Safety-by-design using forward and inverse multi-target machine learning**]()\
+⚛️[**Safety-by-design using forward and inverse multi-target machine learning**](https://www.sciencedirect.com/science/article/abs/pii/S0045653522015260)\
 **Sichao Li**, Amanda Barnard\
 *Chemosphere, 303, 135033, (2022)*
 
