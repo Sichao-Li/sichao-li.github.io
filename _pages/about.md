@@ -20,6 +20,8 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2024.11.06: "EXAGREE: Towards Explanation Agreement in Explainable Machine Learning" is online in arxiv.
+- 2024.11.05 "Diverse Explanations From Data-Driven and Domain-Driven Perspectives in the Physical Sciences" is provisionally accepted by Machine Learning: Science and Technology.
 - 2024.08.01: "Practical Attribution Guidance for Rashomon Sets" is online in arxiv.
 - 2024.05.06: Presented *ICLR 2024* in Vienna, Austria. 
 - 2024.02.20: "Multi-Target Neural Network Predictions of Mxenes as High-Capacity Energy Storage Materials in a Rashomon Set" will be presented in SupercomputingAsia 2024, International Convention Centre Sydney, Australia.
