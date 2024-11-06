@@ -18,13 +18,14 @@ Most of my publications can be found on [Google Scholar](https://scholar.google.
 🌐[**Practical Attribution Guidance for Rashomon Sets**](https://arxiv.org/abs/2407.18482)\
 **Sichao Li**, Amanda Barnard, Quanling Deng
 
-🌐🔄⚛️[**Diverse Explanations from Data-driven and Domain-driven Perspectives for Machine Learning Models**](https://arxiv.org/abs/2402.00347)\
-**Sichao Li**, Amanda Barnard
-
-🔄🌐[**Can we minimize explanation disagreement? (TBA)**]
+🔄🌐[**EXAGREE: Towards Explanation Agreement in Explainable Machine Learning**](https://arxiv.org/abs/2411.01956)\
+**Sichao Li**, Quanling Deng, Amanda Barnard\
 
 # Publications
 ---
+🌐🔄⚛️[**Diverse Explanations From Data-Driven and Domain-Driven Perspectives in the Physical Sciences**](https://arxiv.org/abs/2402.00347)\
+**Sichao Li**, Xin Wang, Amanda Barnard\
+*Machine Learning: Science and Technology, (2024)*
 
 🌐[**Exploring the cloud of feature interaction scores in a Rashomon set**](https://openreview.net/pdf/98ef5c378a28954f6fb388a13143645d433a52ac.pdf)\
 **Sichao Li**, Rong Wang, Quanling Deng, Amanda Barnard\
