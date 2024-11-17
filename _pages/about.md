@@ -14,7 +14,7 @@ Research Interest and Philosophy
 ======
 My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. 
 
-*Feel free to drop me an email for discussion and collaboration if you are interested in my work* :relaxed:
+*I am currently seeking postdoctoral research opportunities. If you're interested in my work, I welcome discussions about potential collaborations – please feel free to reach out via email.* :relaxed:
 
 <img src="../images/Overview.png"  width="850" height="550">
 
