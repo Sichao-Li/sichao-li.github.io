@@ -20,6 +20,7 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2024.12.05: Successfully defended my thesis "Design-Driven Materials Intelligence: Bridging AI, Explainability, and Scientific Discovery" in AI, ML, and Friends Seminars at ANU. Congrats to myself!
 - 2024.11.06: "EXAGREE: Towards Explanation Agreement in Explainable Machine Learning" is online in arxiv.
 - 2024.11.05 "Diverse Explanations From Data-Driven and Domain-Driven Perspectives in the Physical Sciences" is provisionally accepted by Machine Learning: Science and Technology.
 - 2024.08.01: "Practical Attribution Guidance for Rashomon Sets" is online in arxiv.
