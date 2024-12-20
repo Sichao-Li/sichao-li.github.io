@@ -20,6 +20,7 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2024.12.19: I am delighted to be accredited Fellowship of the Higher Education Academy (FHEA) through ANU Educational Fellowship Scheme (EFS).
 - 2024.12.05: Successfully defended my thesis "Design-Driven Materials Intelligence: Bridging AI, Explainability, and Scientific Discovery" in AI, ML, and Friends Seminars at ANU. Congrats to myself!
 - 2024.11.06: "EXAGREE: Towards Explanation Agreement in Explainable Machine Learning" is online in arxiv.
 - 2024.11.05 "Diverse Explanations From Data-Driven and Domain-Driven Perspectives in the Physical Sciences" is provisionally accepted by Machine Learning: Science and Technology.
@@ -36,7 +37,9 @@ News
 
 Services
 ====
-Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; Cell Reports Physical Science; Scientific Report
+Conference Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; 
+
+Journal Reviewer: Cell Reports Physical Science; Scientific Report; Advanced Theory and Simulations; Materials & Design
 
 Personal hobbies
 ======
