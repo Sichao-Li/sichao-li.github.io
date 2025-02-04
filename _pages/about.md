@@ -20,6 +20,7 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2025.01.29: I am excited to work with Dr. Michael McCullough on understanding patterns of neural connectivity as a Jubilee Joint Associate (Postdoctoral Fellow).
 - 2024.12.19: I am delighted to be accredited Fellowship of the Higher Education Academy (FHEA) through ANU Educational Fellowship Scheme (EFS).
 - 2024.12.05: Successfully defended my thesis "Design-Driven Materials Intelligence: Bridging AI, Explainability, and Scientific Discovery" in AI, ML, and Friends Seminars at ANU. Congrats to myself!
 - 2024.11.06: "EXAGREE: Towards Explanation Agreement in Explainable Machine Learning" is online in arxiv.
