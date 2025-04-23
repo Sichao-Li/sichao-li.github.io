@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! My name is Sichao, a final-year Ph.D. Student at Australian National University(ANU). I am currently supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
+Hi there! My name is Sichao, a Postdoctoral Fellow at Australian National University(ANU), supervised by Dr. Michael McCullough. I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). I will always be in the fond memory of our dear supervisor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10).
 
 Research Interest and Philosophy
 ======
@@ -20,6 +20,8 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2024.04.22: I am pleased to be selected for the best reviewer award from AISTATS 2025.
+- 2025.04.10: Congrats to Xin on the acceptance of "Regional Explanations and Diverse Molecular Representations in Cheminformatics: A Comparative Study" from Intelligent Computing.
 - 2025.01.29: I am excited to work with Dr. Michael McCullough on understanding patterns of neural connectivity as a Jubilee Joint Associate (Postdoctoral Fellow).
 - 2024.12.19: I am delighted to be accredited Fellowship of the Higher Education Academy (FHEA) through ANU Educational Fellowship Scheme (EFS).
 - 2024.12.05: Successfully defended my thesis "Design-Driven Materials Intelligence: Bridging AI, Explainability, and Scientific Discovery" in AI, ML, and Friends Seminars at ANU. Congrats to myself!
