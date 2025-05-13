@@ -20,6 +20,7 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2025.05.13: 2025 Talo Innovator Grant (~10,000AUD) approved!
 - 2025.04.22: I am pleased to be selected for the best reviewer award from AISTATS 2025.
 - 2025.04.10: Congrats to Xin on the acceptance of "Regional Explanations and Diverse Molecular Representations in Cheminformatics: A Comparative Study" from Intelligent Computing.
 - 2025.01.29: I am excited to work with Dr. Michael McCullough on understanding patterns of neural connectivity as a Jubilee Joint Associate (Postdoctoral Fellow).
