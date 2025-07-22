@@ -10,7 +10,7 @@ locate                   : "Canberra-AU"
 title                    : "Dr. Sichao Li"
 title_separator          : "-"
 name                     : &name "Sichao"
-description              : &description "Ph.D. and FHEA"
+description              : &description "AI Research Scientist"
 url                      : https://sichao-li.github.io
 repository               : "sichao-li/sichao-li.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
