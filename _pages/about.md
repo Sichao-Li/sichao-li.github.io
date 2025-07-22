@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! My name is Sichao, a Postdoctoral Fellow at The Australian National University (ANU), supervised by Dr. Michael McCullough. I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). I will always be in the fond memory of the dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
+Hi there! My name is Sichao, a Postdoctoral Fellow at The Australian National University (ANU), supervised by [Dr. Michael McCullough](https://jcsmr.anu.edu.au/research/groups/mccullough-group-computational-neuroscience). I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). In memory of our dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
 
 Research Interest and Philosophy
 ======
@@ -20,6 +20,7 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2025.07.16: Conferral of PhD from ANU.
 - 2025.05.13: 2025 Talo Innovator Grant (~10,000AUD) approved!
 - 2025.04.22: I am pleased to be selected for the best reviewer award from AISTATS 2025.
 - 2025.04.10: Congrats to Xin on the acceptance of "Regional Explanations and Diverse Molecular Representations in Cheminformatics: A Comparative Study" from Intelligent Computing.
@@ -43,7 +44,7 @@ Services
 ====
 Conference Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; 
 
-Journal Reviewer: Cell Reports Physical Science; Scientific Report; Advanced Theory and Simulations; Materials & Design
+Journal Reviewer: Cell Reports Physical Science; npj Computational Materials; Scientific Report; Advanced Theory and Simulations; Materials & Design; Displays
 
 Personal hobbies
 ======
