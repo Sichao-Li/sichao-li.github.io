@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! My name is Sichao, a Postdoctoral Fellow at The Australian National University (ANU), supervised by [Dr. Michael McCullough](https://jcsmr.anu.edu.au/research/groups/mccullough-group-computational-neuroscience). I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). In memory of our dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
+Hi there! My name is Sichao, was a Postdoctoral Fellow at The Australian National University (ANU), supervised by [Dr. Michael McCullough](https://jcsmr.anu.edu.au/research/groups/mccullough-group-computational-neuroscience). I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). In memory of our dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
 
 Research Interest and Philosophy
 ======
@@ -20,6 +20,10 @@ My research focuses on eXplainable Artificial Intelligence (XAI) and AI for sc
 
 News
 ======
+- 2025.11.26: Selected for Future Impact Group Fellow with Prof. Seth Lazar
+- 2025.11.11: [FaithAct: Faithfulness Planning and Acting in MLLMs](https://arxiv.org/abs/2511.08409) is online.
+- 2025.11.07: [Evaluating LLM Understanding via Structured Tabular Decision Simulations](https://arxiv.org/abs/2511.10667) is online.
+- 2025.08.16: Onboard City University of Macau as an Assistant Professor.
 - 2025.07.16: Conferral of PhD from ANU.
 - 2025.05.13: 2025 Talo Innovator Grant (~10,000AUD) approved!
 - 2025.04.22: I am pleased to be selected for the best reviewer award from AISTATS 2025.
