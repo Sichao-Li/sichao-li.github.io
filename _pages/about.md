@@ -46,9 +46,10 @@ News
 
 Services
 ====
-Conference Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; 
+Conference Reviewer: ICML; Neurips; ICLR; AISTATS; AAAI; IJCNN; 
 
-Journal Reviewer: Cell Reports Physical Science; npj Computational Materials; Scientific Report; Advanced Theory and Simulations; Materials & Design; Displays
+Journal Reviewer: Cell Reports Physical Science; npj Computational Materials; Scientific Report; Advanced Theory and Simulations; Materials & Design; Displays; IEEE Transactions on
+Consumer Electronic; npj Heritage Science; Digital Discovery; Archives of Computational Methods in Engineering
 
 Personal hobbies
 ======
