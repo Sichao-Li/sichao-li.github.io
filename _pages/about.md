@@ -1,12 +1,13 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+
 
 Hi there! My name is Sichao, a lecturer (education-focused) at the University of Sydney (USYD). Prior to this, I was an Assistant Professor at City University of Macau, a Postdoctoral Fellow at The Australian National University (ANU). I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard), [Dr. Michael McCullough](https://jcsmr.anu.edu.au/research/groups/mccullough-group-computational-neuroscience), and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). In memory of our dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
 
