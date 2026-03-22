@@ -8,24 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! My name is Sichao, was a Postdoctoral Fellow at The Australian National University (ANU), supervised by [Dr. Michael McCullough](https://jcsmr.anu.edu.au/research/groups/mccullough-group-computational-neuroscience). I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard) and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). In memory of our dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
+Hi there! My name is Sichao, a lecturer (education-focused) at the University of Sydney (USYD). Prior to this, I was an Assistant Professor at City University of Macau, a Postdoctoral Fellow at The Australian National University (ANU). I have been fortunate enough to be supervised by [Prof. Amanda Barnard](https://en.wikipedia.org/wiki/Amanda_Barnard), [Dr. Michael McCullough](https://jcsmr.anu.edu.au/research/groups/mccullough-group-computational-neuroscience), and co-supervised by [Dr. Quanling Deng](https://quanlingdeng.github.io/) and [Dr. Amanda Parker](https://comp.anu.edu.au/people/amanda-parker/). I obtained my M.C.S. from ANU in 2020, under the supervision of [Dr. Charles Martain](https://charlesmartin.au/) and I was working as a research assistant under the supervision of [Prof. Steve Blackburn](https://users.cecs.anu.edu.au/~steveb/). In memory of our dear supervisor, friend, and mentor -- [Dr. Yu Lin](https://www.forevermissed.com/yulin/about) (1981/11 - 2022/10) and [Dr. Qing Wang](https://comp.anu.edu.au/people/qing-wang/) (1972/03-2025/03).
 
 Research Interest and Philosophy
 ======
-My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. 
+My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science, now extending to Interpretability in LLM and Trustworthy LLM in Science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. 
 
-*I am currently seeking postdoctoral research opportunities. If you're interested in my work, I welcome discussions about potential collaborations – please feel free to reach out via email.* :relaxed:
+*If you're interested in my work, I welcome discussions about potential collaborations – please feel free to reach out via email.* :relaxed:
 
 <img src="../images/Overview.png"  width="850" height="550">
 
+Teaching Philosophy
+======
+I’m very interested in education development and innovation in the post-LLM era now, and would like to develop courses and curriculum for students at universities.
+
 News
 ======
+- 2026.03.15: Lucky to Join USYD! 
+- 2026.03.10: Thank Google for their Google Cloud Research Credits Program (~10,000AUD).
 - 2025.11.26: Selected for Future Impact Group Fellow with Prof. Seth Lazar
 - 2025.11.11: [FaithAct: Faithfulness Planning and Acting in MLLMs](https://arxiv.org/abs/2511.08409) is online.
 - 2025.11.07: [Evaluating LLM Understanding via Structured Tabular Decision Simulations](https://arxiv.org/abs/2511.10667) is online.
+- 2025.11.01: Lambda's Research Grant Program (~1,000USD) approved.
 - 2025.08.16: Onboard City University of Macau as an Assistant Professor.
 - 2025.07.16: Conferral of PhD from ANU.
-- 2025.05.13: 2025 Talo Innovator Grant (~10,000AUD) approved!
+- 2025.05.13: 2025 Talo Innovator Grant (~10,000AUD) approved.
 - 2025.04.22: I am pleased to be selected for the best reviewer award from AISTATS 2025.
 - 2025.04.10: Congrats to Xin on the acceptance of "Regional Explanations and Diverse Molecular Representations in Cheminformatics: A Comparative Study" from Intelligent Computing.
 - 2025.01.29: I am excited to work with Dr. Michael McCullough on understanding patterns of neural connectivity as a Jubilee Joint Associate (Postdoctoral Fellow).
