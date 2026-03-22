@@ -15,7 +15,7 @@ Research Interest and Philosophy
 ======
 My research focuses on eXplainable Artificial Intelligence (XAI) and AI for science, now extending to Interpretability in LLM and Trustworthy LLM in Science. I am driven by the belief that AI and ML can be powerful tools for solving real-world scientific challenges, ultimately contributing to the betterment of society. I utilize ML and XAI advancement to help scientists speed up property prediction, understand the mechanisms underlying machine learning model decisions, and potentially discover new materials. I aim to develop a general interactive interface for researchers to integrate domain knowledge into the model selection process to identify trustworthy, fair,  and faithful ML models. Various domains can benefit from the framework, including biology, chemistry, drug discovery, and materials science. 
 
-*If you're interested in my work, I welcome discussions about potential collaborations – please feel free to reach out via email.* :relaxed:
+*If you're interested in my work, I welcome discussions about potential collaborations – please feel free to reach out via sichao.li@sydney.edu.au* :relaxed:
 
 <img src="../images/Overview.png"  width="850" height="550">
 
@@ -25,7 +25,7 @@ I’m very interested in education development and innovation in the post-LLM er
 
 News
 ======
-- 2026.03.15: Lucky to Join USYD! 
+- 2026.03.15: Onboarded USYD.
 - 2026.03.10: Thank Google for their Google Cloud Research Credits Program (~10,000AUD).
 - 2025.11.26: Selected for Future Impact Group Fellow with Prof. Seth Lazar
 - 2025.11.11: [FaithAct: Faithfulness Planning and Acting in MLLMs](https://arxiv.org/abs/2511.08409) is online.
