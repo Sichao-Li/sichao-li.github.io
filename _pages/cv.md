@@ -9,52 +9,68 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](CV_sichao.pdf)
+[Download full CV](CV_sichao.pdf)
 
-Education
-======
-* B.S. in Mechanical Engineering, Shanghai Ocean University, 2018
-* M.S. in Computer Science, Australian National University, 2020
-* Ph.D in Computational Science, Australian National University, 2024 (expected)
+## Employment
 
-Research Experience
-======
-* PhD with primary supervisor Prof. Amanda Barnard --- Design-driven Materials Intelligence
-  * Australian National University, Canberra
-  * Duties included: applying AI/ML to speed up the material discovery
- 
-* Research Assistant with supervisor Prof. Steve Blackburn --- The Dacapo Bench
-  * Australian National University, Canberra
-  * Duties included: Building Dacapo Benchmark on the latest version of JDK
+**Lecturer, Level A**  
+University of Sydney, School of Computer Science  
+2026.03–Present
 
-* Research Assistant with supervisor Dr. Charles Martin --- Generating complex melodies on an
-Edge TPU
-  * Australian National University, Canberra
-  * Duties included: Deploying a Recurrent Neutral Network on an Edge TPU to generate music
-  
-Skills
-======
-* Scientific Problem Solving
-  * Defining and analyzing complex scientific problems
-  * Developing and implementing innovative data-driven and domain-driven methodologies
-* Explainable Artificial Intelligence
-  * Addressing the explanation disagreement problem in AI systems
-  * Bridging the gap between algorithms, human understanding, and real-world problem
+**Assistant Professor**  
+City University of Macau, Faculty of Data Science  
+2025.08–2026.03
 
-Publications
-======
-{% if site.author.googlescholar %}
-  <div class="wordwrap">All my publications can be found on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+**Jubilee Joint Associate / Postdoctoral Fellow**  
+Australian National University  
+2025.01–2025.08
 
-<br/><br/>
-  
-Teaching and Supervising
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service
-======
-* Reviewer: ICML; Neurips; ICLR; AISTATS; IJCNN; Cell Reports Physical Science; Scientific Report
+## Education
+
+**PhD in Computational Science**  
+Australian National University, 2025  
+Thesis: *Design-driven Materials Intelligence*
+
+**Master of Computing / Computer Science**  
+Australian National University, 2020
+
+**Bachelor of Engineering in Mechanical Engineering**  
+Shanghai Ocean University, 2018
+
+## Research Areas
+
+- Explainable Artificial Intelligence
+- Trustworthy and Explainable LLMs
+- Rashomon Sets and Explanation Disagreement
+- AI for Scientific Discovery
+- AI in Education
+- Materials Informatics and Computational Science
+
+## Selected Publications
+
+A full publication list is available on my [Publications](/publications/) page and [Google Scholar](https://scholar.google.com/citations?user=ylZQz2sAAAAJ&hl=en).
+
+## Teaching
+
+- Systems Programming, University of Sydney
+- IT Project Management, University of Sydney
+- Relational Algebra, City University of Macau
+- Data Structures, ANU–Shandong University Weihai
+- Computer Vision, Australian National University
+- Relational Databases, Australian National University
+- Introduction to Database Concepts, Australian National University
+- Foundations of Computing, Australian National University
+
+## Service
+
+Conference reviewer: ICML, NeurIPS, ICLR, AISTATS, AAAI, IJCNN, CVPR.  
+Journal reviewer: Cell Reports Physical Science, Scientific Reports, Materials & Design, npj Computational Materials, Advanced Theory and Simulations, IEEE Transactions on Consumer Electronics, Devices, npj Heritage Science, Digital Discovery, Archives of Computational Methods in Engineering, Nanoscale.
+
+## Grants and Awards
+
+- Google Cloud Research Credits
+- Lambda Research Grant
+- TALO Innovator Grant
+- Vice-Chancellor’s HDR Travel Grant, ANU
+- AISTATS Best Reviewer Award
+- Fellow of the Higher Education Academy
