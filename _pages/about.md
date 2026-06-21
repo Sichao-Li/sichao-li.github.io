@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Lecturer in Computer Science at the University of Sydney. My research develops trustworthy and explainable AI methods for scientific discovery, large language models, and education. I am particularly interested in explanation disagreement, Rashomon sets, stakeholder-centred interpretability, concept-based LLM monitoring, and responsible AI systems that support human decision-making in scientific and educational contexts.
+I am an AI researcher. My research develops trustworthy and explainable AI methods for scientific discovery, large language models, and education. I am particularly interested in explanation disagreement, Rashomon sets, stakeholder-centred interpretability, concept-based LLM monitoring, and responsible AI systems that support human decision-making in scientific and educational contexts.
 
 Before joining the University of Sydney, I was an Assistant Professor at the City University of Macau and a Jubilee Joint Associate/Postdoctoral Fellow at the Australian National University. I received my PhD in Computational Science from ANU, where my thesis focused on design-driven materials intelligence and explainable machine learning for scientific discovery.
 
