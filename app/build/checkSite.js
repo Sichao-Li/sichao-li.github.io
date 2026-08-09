@@ -340,7 +340,7 @@ roomPages.forEach(({ pageId, path }) => {
   );
 });
 
-const appIndexSource = readPageSource("demo-3d/index.html");
+const appIndexSource = readPageSource("app/index.html");
 assert(
   appIndexSource.includes("{{site.name}}"),
   "Root HTML must use site identity tokens",
@@ -372,7 +372,7 @@ assert(
   "Root HTML is missing a usable no-JavaScript fallback",
 );
 
-const roomCssSource = readPageSource("demo/room.css");
+const roomCssSource = readPageSource("site/room/room.css");
 assert(
   roomCssSource.includes("{{site.roomBackgroundAsset}}"),
   "Room CSS must use the configured background asset",

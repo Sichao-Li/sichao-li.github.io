@@ -123,7 +123,7 @@ export function profileSitePages({
   projectRoot,
 }) {
   const pagesSource = resolve(profileRoot, "pages");
-  const sharedPagesSource = resolve(projectRoot, "demo");
+  const sharedPagesSource = resolve(projectRoot, "site", "room");
   const publicSource = resolve(projectRoot, "public");
   const sharedPageAssets = new Map([
     ["/demo/room.css", resolve(sharedPagesSource, "room.css")],
@@ -199,7 +199,7 @@ export function profileSitePages({
       });
     },
     closeBundle() {
-      const output = resolve(projectRoot, "demo-3d", outputDirectory);
+      const output = resolve(projectRoot, "app", outputDirectory);
       const pagesOutput = resolve(output, "demo");
       copyProfilePages(pagesSource, pagesOutput, profile);
       cpSync(

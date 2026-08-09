@@ -42,17 +42,16 @@ Vite prints the local URL, normally <http://127.0.0.1:5173/>.
 ## Structure
 
 ```text
+app/                      React, Three.js, Vite, and build tools
 profile/                  Personal identity, gallery copy, and pages
-demo-3d/                  React and Three.js gallery engine
-demo/                     Detailed-page styles and navigation
-site/                     Configuration and static-page renderers
+site/                     Renderers, configuration, and room-page assets
 public/assets/            Declared visual assets
 .github/workflows/        GitHub Pages deployment
 ```
 
 ## Deployment
 
-Pushes to `main` run validation, build the static site into `demo-3d/dist/`, and
+Pushes to `main` run validation, build the static site into `app/dist/`, and
 deploy it through GitHub Pages. The complete 3D site runs without a server-side
 runtime.
 
@@ -69,3 +68,11 @@ npm run build
 The source code uses the MIT License. Personal content, likeness assets, and
 institutional marks have separate restrictions described in
 [`ASSET-LICENSE.md`](./ASSET-LICENSE.md).
+
+## Acknowledgements
+
+The interactive portfolio direction was inspired by
+[ITom's portfolio](https://itomdev.com/). This project uses an original
+implementation and content structure adapted for an academic profile. Generated
+character and gallery assets were created with ChatGPT and then integrated and
+optimised for the site.

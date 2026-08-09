@@ -1,7 +1,7 @@
 .DS_Store
 .idea/
 node_modules/
-demo-3d/dist/
+app/dist/
 .npm-cache/
 coverage/
 *.log
