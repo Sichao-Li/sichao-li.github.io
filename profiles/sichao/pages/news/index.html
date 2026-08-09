@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="News and research updates from {{site.name}}."
+    />
+    <title>News | {{site.name}}</title>
+    <link
+      rel="icon"
+      href="../../public/{{site.brandAsset}}"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="../room.css" />
+    <script src="../room.js" defer></script>
+  </head>
+  <body data-room="news">
+    <a class="skip-link" href="#room-content">Skip to content</a>
+
+    <!-- @site-header -->
+
+    <main id="room-content">
+      <section class="room-hero" aria-labelledby="room-title">
+        <div class="room-hero-shell">
+          <div class="room-hero-copy">
+            <p class="room-eyebrow"><span>N02</span> / Academic portfolio</p>
+            <h1 id="room-title">News</h1>
+            <p>
+              Appointments, paper acceptances, and current directions across AI
+              governance, explainability, and interdisciplinary applications.
+            </p>
+            <span class="room-code">News / Current</span>
+          </div>
+          <figure class="room-character">
+            <img
+              src="../../public/{{page.figureAsset}}"
+              alt="{{page.figureAlt}}"
+              width="384"
+              height="512"
+            />
+            <figcaption><span>{{page.code}}</span> / {{page.label}}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="room-content" aria-labelledby="updates-title">
+        <div class="room-content-shell">
+          <header class="room-content-heading">
+            <h2 id="updates-title">Latest updates.</h2>
+            <p>Confirmed announcements from the current site record.</p>
+          </header>
+
+          <div
+            class="news-notepad"
+            role="region"
+            aria-label="Scrollable news archive"
+            tabindex="0"
+          >
+            <header class="notepad-header">
+              <span>Research log / N02</span>
+              <span>Newest first</span>
+            </header>
+            <ol class="notepad-list">
+              <li>
+                <article>
+                  <time datetime="2026-03-01">1 March 2026</time>
+                  <div>
+                    <span class="entry-kind">Appointment</span>
+                    <p>
+                      Joined the {{site.institution}} as Lecturer in Computer
+                      Science.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-02-15">15 February 2026</time>
+                  <div>
+                    <span class="entry-kind">Publication</span>
+                    <p>
+                      Practical Attribution Guidance for Rashomon Sets accepted
+                      at AISTATS.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-01-20">20 January 2026</time>
+                  <div>
+                    <span class="entry-kind">Publication</span>
+                    <p>FaithAct accepted at ACL.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-01-10">10 January 2026</time>
+                  <div>
+                    <span class="entry-kind">Research</span>
+                    <p>
+                      Recent work on Rashomon-aware multimodal learning for
+                      battery materials is forthcoming in Advanced Intelligent
+                      Discovery.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2025-12-01">1 December 2025</time>
+                  <div>
+                    <span class="entry-kind">Projects</span>
+                    <p>
+                      Ongoing projects explore explainable LLMs, AI tutoring,
+                      and trustworthy AI for science.
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- @site-switcher -->
+    </main>
+
+    <!-- @site-footer -->
+  </body>
+</html>

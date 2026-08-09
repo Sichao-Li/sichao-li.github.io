@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="News and research updates from {{site.name}}."
+    />
+    <title>News | {{site.name}}</title>
+    <link
+      rel="icon"
+      href="../../public/{{site.brandAsset}}"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="../room.css" />
+    <script src="../room.js" defer></script>
+  </head>
+  <body data-room="news">
+    <a class="skip-link" href="#room-content">Skip to content</a>
+
+    <!-- @site-header -->
+
+    <main id="room-content">
+      <section class="room-hero" aria-labelledby="room-title">
+        <div class="room-hero-shell">
+          <div class="room-hero-copy">
+            <p class="room-eyebrow"><span>N02</span> / Academic portfolio</p>
+            <h1 id="room-title">News</h1>
+            <p>
+              Keep appointments, publications, awards, and project milestones in
+              one chronological record.
+            </p>
+            <span class="room-code">News / Current</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-content" aria-labelledby="updates-title">
+        <div class="room-content-shell">
+          <header class="room-content-heading">
+            <h2 id="updates-title">Latest updates.</h2>
+            <p>Replace these examples with concise, verifiable updates.</p>
+          </header>
+
+          <div
+            class="news-notepad"
+            role="region"
+            aria-label="Scrollable news archive"
+            tabindex="0"
+          >
+            <header class="notepad-header">
+              <span>Research log / N02</span>
+              <span>Newest first</span>
+            </header>
+            <ol class="notepad-list">
+              <li>
+                <article>
+                  <time datetime="2026-05-01">1 May 2026</time>
+                  <div>
+                    <span class="entry-kind">Appointment</span>
+                    <p>
+                      Add your latest appointment, promotion, or institutional
+                      update.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-04-15">15 April 2026</time>
+                  <div>
+                    <span class="entry-kind">Publication</span>
+                    <p>
+                      Add a publication acceptance with the venue and a link in
+                      the Research page.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-03-20">20 March 2026</time>
+                  <div>
+                    <span class="entry-kind">Publication</span>
+                    <p>Add a grant, award, keynote, or invited presentation.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-02-10">10 February 2026</time>
+                  <div>
+                    <span class="entry-kind">Research</span>
+                    <p>
+                      Add a research release, dataset, software package, or
+                      project milestone.
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <time datetime="2026-01-01">1 January 2026</time>
+                  <div>
+                    <span class="entry-kind">Projects</span>
+                    <p>
+                      Add a teaching, supervision, service, or collaboration
+                      update.
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- @site-switcher -->
+    </main>
+
+    <!-- @site-footer -->
+  </body>
+</html>

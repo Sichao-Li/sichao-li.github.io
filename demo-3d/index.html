@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{site.description}}" />
+    <meta name="author" content="{{site.name}}" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#080b0f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="{{site.locale}}" />
+    <meta property="og:site_name" content="{{site.portfolioTitle}}" />
+    <meta
+      property="og:title"
+      content="{{site.name}} | {{site.portfolioTitle}}"
+    />
+    <meta property="og:description" content="{{site.description}}" />
+    <meta property="og:url" content="{{site.siteUrl}}" />
+    <meta property="og:image" content="{{site.socialImageUrl}}" />
+    <meta property="og:image:alt" content="{{site.socialImageAlt}}" />
+    <meta property="og:image:width" content="{{site.socialImageWidth}}" />
+    <meta property="og:image:height" content="{{site.socialImageHeight}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="{{site.name}} | {{site.portfolioTitle}}"
+    />
+    <meta name="twitter:description" content="{{site.description}}" />
+    <meta name="twitter:image" content="{{site.socialImageUrl}}" />
+    <link rel="canonical" href="{{site.siteUrl}}" />
+    <link rel="icon" type="image/svg+xml" href="./public/{{site.brandAsset}}" />
+    <title>{{site.name}} | {{site.portfolioTitle}}</title>
+    <!-- @site-structured-data -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

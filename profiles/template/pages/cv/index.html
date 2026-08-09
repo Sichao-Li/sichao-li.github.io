@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Curriculum vitae and academic record for {{site.name}}."
+    />
+    <title>CV | {{site.name}}</title>
+    <link
+      rel="icon"
+      href="../../public/{{site.brandAsset}}"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="../room.css" />
+    <script src="../room.js" defer></script>
+  </head>
+  <body data-room="about">
+    <a class="skip-link" href="#room-content">Skip to content</a>
+
+    <!-- @site-header -->
+
+    <main id="room-content">
+      <section class="room-hero" aria-labelledby="room-title">
+        <div class="room-hero-shell">
+          <div class="room-hero-copy">
+            <p class="room-eyebrow"><span>CV</span> / Academic record</p>
+            <h1 id="room-title">Curriculum Vitae</h1>
+            <p>
+              A concise web record of appointment, research, teaching, funding
+              priorities, and service.
+            </p>
+            <div class="room-code-row">
+              <span class="room-code">Web CV / Sample</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-content" aria-labelledby="record-title">
+        <div class="room-content-shell">
+          <header class="room-content-heading">
+            <h2 id="record-title">Academic record.</h2>
+            <p>{{site.role}} and {{site.recognition}}.</p>
+          </header>
+
+          <ol class="portfolio-list profile-list" aria-label="CV record">
+            <li>
+              <span class="portfolio-list-index">CV01</span>
+              <div>
+                <h3>Current Appointment</h3>
+                <p>
+                  {{site.role}}, {{site.school}}, {{site.faculty}},
+                  {{site.institution}}.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Appointment details">
+                <li>Your title</li>
+                <li>{{site.location}}</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">CV02</span>
+              <div>
+                <h3>
+                  <a href="../research/" data-room-navigation>Research</a>
+                </h3>
+                <p>
+                  Summarise your research themes, core methods, selected
+                  contributions, and current directions.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Research areas">
+                <li>Theme one</li>
+                <li>Theme two</li>
+                <li>Theme three</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">CV03</span>
+              <div>
+                <h3>
+                  <a href="../teaching/" data-room-navigation>Teaching</a>
+                </h3>
+                <p>
+                  Summarise your courses, supervision, educational leadership,
+                  and teaching philosophy.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Teaching details">
+                <li>Courses</li>
+                <li>Supervision</li>
+                <li>Recognition</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">CV04</span>
+              <div>
+                <h3>
+                  <a href="../funding/" data-room-navigation>Funding</a>
+                </h3>
+                <p>
+                  List confirmed awards and partnerships, then identify future
+                  priorities separately.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Funding areas">
+                <li>Awards</li>
+                <li>Priorities</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">CV05</span>
+              <div>
+                <h3>
+                  <a href="../service/" data-room-navigation>Service</a>
+                </h3>
+                <p>
+                  Summarise academic citizenship, disciplinary work, leadership,
+                  reviewing, and public engagement.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Service areas">
+                <li>Academic</li>
+                <li>Professional</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">CV06</span>
+              <div>
+                <h3>
+                  <a
+                    href="https://scholar.google.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Publications</a
+                  >
+                </h3>
+                <p>
+                  Selected publications appear in the Research record; Google
+                  Scholar provides the current complete publication list.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Publication links">
+                <li>Selected work</li>
+                <li>Google Scholar</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- @site-switcher -->
+    </main>
+
+    <!-- @site-footer -->
+  </body>
+</html>

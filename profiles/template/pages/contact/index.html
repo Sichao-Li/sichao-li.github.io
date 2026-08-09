@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contact details and academic profiles for {{site.name}}."
+    />
+    <title>Contact | {{site.name}}</title>
+    <link
+      rel="icon"
+      href="../../public/{{site.brandAsset}}"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="../room.css" />
+    <script src="../room.js" defer></script>
+  </head>
+  <body data-room="contact">
+    <a class="skip-link" href="#room-content">Skip to content</a>
+
+    <!-- @site-header -->
+
+    <main id="room-content">
+      <section class="room-hero" aria-labelledby="room-title">
+        <div class="room-hero-shell">
+          <div class="room-hero-copy">
+            <p class="room-eyebrow"><span>C08</span> / Academic portfolio</p>
+            <h1 id="room-title">Contact</h1>
+            <p>
+              Research, supervision, and collaboration enquiries are welcome.
+            </p>
+            <a class="room-code" href="mailto:{{site.email}}">
+              Email / {{site.email}}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="room-content" aria-labelledby="contact-title">
+        <div class="room-content-shell">
+          <header class="room-content-heading">
+            <h2 id="contact-title">Start a conversation.</h2>
+            <p>
+              Email is the best place to begin. Academic and professional
+              profiles are linked below.
+            </p>
+          </header>
+
+          <!-- @site-profiles -->
+        </div>
+      </section>
+
+      <!-- @site-switcher -->
+    </main>
+
+    <!-- @site-footer -->
+  </body>
+</html>

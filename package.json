@@ -1,0 +1,39 @@
+{
+  "name": "sichao-li-academic-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sichao Li's 3D academic portfolio with a reusable starter profile.",
+  "homepage": "https://sichao-li.github.io",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite demo-3d --host 127.0.0.1",
+    "dev:template": "vite demo-3d --host 127.0.0.1 --mode template",
+    "build": "vite build demo-3d",
+    "build:template": "vite build demo-3d --mode template",
+    "build:all": "npm run build && npm run build:template",
+    "preview": "vite preview demo-3d --host 127.0.0.1",
+    "preview:template": "vite preview demo-3d --host 127.0.0.1 --mode template",
+    "format": "prettier site profiles demo-3d demo package.json README.md .github/workflows/deploy.yml --write",
+    "check": "npm run check:format && npm run check:site",
+    "check:format": "prettier site profiles demo-3d demo package.json README.md .github/workflows/deploy.yml --check",
+    "check:site": "node demo-3d/build/checkSite.js sichao && node demo-3d/build/checkSite.js template",
+    "check:release": "node demo-3d/build/checkSite.js sichao --release",
+    "check:template-release": "node demo-3d/build/checkSite.js template --release"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "prettier": "^3.8.0",
+    "vite": "^7.2.4"
+  }
+}

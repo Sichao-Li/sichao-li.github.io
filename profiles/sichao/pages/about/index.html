@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Academic profile of {{site.name}}." />
+    <title>About | {{site.name}}</title>
+    <link
+      rel="icon"
+      href="../../public/{{site.brandAsset}}"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="../room.css" />
+    <script src="../room.js" defer></script>
+  </head>
+  <body data-room="about">
+    <a class="skip-link" href="#room-content">Skip to content</a>
+
+    <!-- @site-header -->
+
+    <main id="room-content">
+      <section class="room-hero" aria-labelledby="room-title">
+        <div class="room-hero-shell">
+          <div class="room-hero-copy">
+            <p class="room-eyebrow"><span>A07</span> / Academic portfolio</p>
+            <h1 id="room-title">About</h1>
+            <p>
+              Researcher and educator working on AI that remains accountable to
+              people and useful to science.
+            </p>
+            <div class="room-code-row">
+              <span class="room-code">Profile / {{site.location}}</span>
+              <a
+                class="room-code-link"
+                href="{{site.cvHref}}"
+                data-room-navigation
+              >
+                CV <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <figure class="room-character">
+            <img
+              src="../../public/{{page.figureAsset}}"
+              alt="{{page.figureAlt}}"
+              width="384"
+              height="512"
+            />
+            <figcaption><span>{{page.code}}</span> / {{page.label}}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="room-content" aria-labelledby="profile-title">
+        <div class="room-content-shell">
+          <header class="room-content-heading">
+            <h2 id="profile-title">Academic profile.</h2>
+          </header>
+
+          <ol class="portfolio-list profile-list" aria-label="Profile record">
+            <li>
+              <span class="portfolio-list-index">A01</span>
+              <div>
+                <h3>
+                  <a href="../research/" data-room-navigation>Research</a>
+                </h3>
+                <p>
+                  Governing AI through evidence about how systems reason, and
+                  building trustworthiness for social good.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Research topics">
+                <li>Governance</li>
+                <li>XAI</li>
+                <li>AI for Science</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">A02</span>
+              <div>
+                <h3>
+                  <a href="../teaching/" data-room-navigation>Teaching</a>
+                </h3>
+                <p>
+                  Computing and AI education shaped by active learning,
+                  authentic assessment, and responsible use of AI tools.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Teaching areas">
+                <li>Computer Science</li>
+                <li>Data Science</li>
+                <li>Artificial Intelligence</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">A03</span>
+              <div>
+                <h3>
+                  <a href="../funding/" data-room-navigation>Funding</a>
+                </h3>
+                <p>
+                  Grants, research awards, computing credits, and travel support
+                  for trustworthy AI research and academic development.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Funding record">
+                <li>Grants</li>
+                <li>Credits</li>
+                <li>Travel</li>
+              </ul>
+            </li>
+            <li>
+              <span class="portfolio-list-index">A04</span>
+              <div>
+                <h3>
+                  <a href="../service/" data-room-navigation>Service</a>
+                </h3>
+                <p>
+                  Internal academic service, program development, conference and
+                  journal reviewing, and research evaluation.
+                </p>
+              </div>
+              <ul class="portfolio-list-meta" aria-label="Service areas">
+                <li>Internal</li>
+                <li>Reviewing</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- @site-switcher -->
+    </main>
+
+    <!-- @site-footer -->
+  </body>
+</html>

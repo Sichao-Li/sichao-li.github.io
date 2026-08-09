@@ -1,0 +1,13 @@
+.DS_Store
+.idea/
+node_modules/
+demo-3d/dist/
+demo-3d/dist-template/
+.npm-cache/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+output/playwright/
+test-results/
