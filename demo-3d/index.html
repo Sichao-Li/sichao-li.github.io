@@ -34,6 +34,38 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <style>
+        body {
+          margin: 0;
+          color: #f4f3ef;
+          background: #080b0f;
+          font-family: Arial, sans-serif;
+        }
+        .noscript-panel {
+          width: min(680px, calc(100% - 48px));
+          margin: 15vh auto;
+          padding: 32px;
+          border-left: 4px solid #4c9ca0;
+          background: #11171c;
+        }
+        .noscript-panel a {
+          color: #8fc8ca;
+        }
+      </style>
+      <main class="noscript-panel">
+        <h1>{{site.name}}</h1>
+        <p>
+          JavaScript is required for the 3D gallery. The detailed academic
+          portfolio remains available without it.
+        </p>
+        <p>
+          <a href="./demo/research/">Research</a> ·
+          <a href="./demo/about/">About</a> ·
+          <a href="./demo/contact/">Contact</a>
+        </p>
+      </main>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

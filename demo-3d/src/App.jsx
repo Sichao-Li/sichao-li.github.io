@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Loader, Preload } from "@react-three/drei";
+import { Loader } from "@react-three/drei";
 import GalleryScene from "./GalleryScene";
 import SceneNavigation from "./SceneNavigation";
 import SceneSummary from "./SceneSummary";
@@ -47,7 +47,6 @@ export default function App() {
               activeIndex={activeIndex}
               reduceMotion={reduceMotion}
             />
-            <Preload all />
           </Suspense>
         </Canvas>
       </main>
@@ -72,14 +71,6 @@ export default function App() {
         barStyles={{ background: activeSection.accent, height: "2px" }}
         dataStyles={{ color: "#f4f3ef", fontSize: "12px" }}
       />
-
-      <noscript>
-        <div className="noscript-panel">
-          JavaScript is required for the 3D gallery. Visit the standard
-          portfolio at
-          <a href="./demo/research/"> the accessible site</a>.
-        </div>
-      </noscript>
     </div>
   );
 }

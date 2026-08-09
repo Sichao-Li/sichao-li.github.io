@@ -103,18 +103,27 @@ function renderPageTokens(html, pageId, profile) {
   );
 }
 
-function renderHeader(pageId, { siteConfig }) {
-  const primaryLinks =
-    pageId === "research"
-      ? [{ href: "../about/", label: "About" }]
-      : pageId === "about"
-        ? [{ href: "../research/", label: "Research" }]
-        : pageId === "cv"
-          ? [{ href: "../about/", label: "About" }]
-          : [
-              { href: "../research/", label: "Research" },
-              { href: "../about/", label: "About" },
-            ];
+function renderHeaderLinks(pageId, { portfolioCategories }) {
+  return [
+    ...portfolioCategories.map(({ id, label, path }) => ({
+      id,
+      href: `../${path}/`,
+      label,
+    })),
+    { id: "contact", href: "../contact/", label: "Contact" },
+  ]
+    .map(({ href, id, label }) => {
+      const current = id === pageId;
+      return `<a href="${href}"${
+        current ? ' aria-current="page"' : " data-room-navigation"
+      }>${escapeHtml(label)}</a>`;
+    })
+    .join("\n    ");
+}
+
+function renderHeader(pageId, profile) {
+  const { siteConfig } = profile;
+  const navigationLinks = renderHeaderLinks(pageId, profile);
 
   return `<header class="room-header">
   <a class="room-brand" href="../../" data-room-navigation>
@@ -127,16 +136,20 @@ function renderHeader(pageId, { siteConfig }) {
     <span>${escapeHtml(siteConfig.name)}</span>
   </a>
   <nav class="room-header-nav" aria-label="Room navigation">
-    ${primaryLinks
-      .map(
-        ({ href, label }) =>
-          `<a href="${href}" data-room-navigation>${label}</a>`,
-      )
-      .join("\n    ")}
+    ${navigationLinks}
     <a class="back-to-wing" href="../../" data-room-navigation>
       <span aria-hidden="true">&larr;</span> Home
     </a>
   </nav>
+  <details class="room-header-menu">
+    <summary>Navigate</summary>
+    <nav aria-label="Mobile room navigation">
+      ${navigationLinks}
+      <a class="back-to-wing" href="../../" data-room-navigation>
+        <span aria-hidden="true">&larr;</span> Home
+      </a>
+    </nav>
+  </details>
 </header>`;
 }
 

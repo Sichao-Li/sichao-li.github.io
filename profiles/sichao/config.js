@@ -160,11 +160,11 @@ export const roomFigures = Object.freeze({
 });
 
 export const galleryAssets = Object.freeze({
-  homeNotebook: "assets/generated/home-research-notebook.png",
+  homeNotebook: "assets/generated/home-research-notebook.webp",
   characterFrames: [
-    "assets/character/sichao-avatar-corridor.png",
-    "assets/character/sichao-avatar-wave-1-transparent.png",
-    "assets/character/sichao-avatar-wave-2-transparent.png",
+    "assets/character/sichao-avatar-corridor.webp",
+    "assets/character/sichao-avatar-wave-1-transparent.webp",
+    "assets/character/sichao-avatar-wave-2-transparent.webp",
   ],
   researchCovers: [
     "assets/generated/midnight-research-atlas-hero.jpg",

@@ -1,5 +1,5 @@
-import { existsSync, readFileSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { dirname, relative, resolve, sep } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { renderSitemap } from "../../site/templates/renderMetadata.js";
 import {
@@ -77,6 +77,15 @@ function readPage(relativePath) {
   const source = readPageSource(relativePath);
   const pageId = relativePath.match(/^demo\/([^/]+)\/index\.html$/)?.[1];
   return renderRoomPage(source, { pageId, profile });
+}
+
+function listFiles(directory, root = directory) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const filePath = resolve(directory, entry.name);
+    return entry.isDirectory()
+      ? listFiles(filePath, root)
+      : [relative(root, filePath)];
+  });
 }
 
 function readSwitcherAnchors(html, pageName) {
@@ -256,6 +265,15 @@ const roomPages = [
   { pageId: "contact", path: "contact" },
   { pageId: "cv", path: "cv" },
 ];
+const allowedPageFiles = new Set(
+  roomPages.map(({ path }) => `${path}${sep}index.html`),
+);
+listFiles(resolve(profileRoot, "pages")).forEach((filePath) => {
+  assert(
+    allowedPageFiles.has(filePath),
+    `Unexpected file in profile pages: ${filePath}`,
+  );
+});
 
 roomPages.forEach(({ pageId, path }) => {
   const relativePath = `demo/${path}/index.html`;
@@ -347,6 +365,12 @@ assert(
 assert(
   appIndex.includes('name="twitter:card" content="summary_large_image"'),
   "Root HTML is missing Twitter card metadata",
+);
+assert(
+  /<noscript>[\s\S]*<main class="noscript-panel">[\s\S]*demo\/research\//.test(
+    appIndex,
+  ),
+  "Root HTML is missing a usable no-JavaScript fallback",
 );
 
 const roomCssSource = readPageSource("demo/room.css");

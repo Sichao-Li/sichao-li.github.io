@@ -49,7 +49,8 @@ Vite prints the local URL, normally <http://127.0.0.1:5173/>.
 | `npm run check`            | Validate formatting and both content profiles   |
 | `npm run build`            | Build the personal site into `demo-3d/dist/`    |
 | `npm run build:template`   | Build the starter into `demo-3d/dist-template/` |
-| `npm run build:all`        | Build both profiles                             |
+| `npm run build:all`        | Build and audit both profiles                   |
+| `npm run check:build`      | Audit generated routes, links, and output files |
 | `npm run check:release`    | Validate the personal profile for publication   |
 | `npm run preview`          | Preview the personal production build           |
 | `npm run preview:template` | Preview the starter production build            |
@@ -78,8 +79,10 @@ The production output is static HTML, CSS, JavaScript, and images. GitHub Pages
 supports the complete 3D version without a server-side runtime.
 
 The workflow validates both profiles, performs the stricter personal release
-check, builds both variants, and uploads only `demo-3d/dist/`. Production builds
-also include `sitemap.xml`, `robots.txt`, and `.nojekyll`.
+check, builds and audits both variants, and uploads only `demo-3d/dist/`.
+Production builds also include `sitemap.xml`, `robots.txt`, and `.nojekyll`.
+Only declared category `index.html` files can enter the generated `demo/`
+directory; unexpected notes, backups, and operating-system files fail the build.
 
 ## Public Release Checklist
 
@@ -96,5 +99,6 @@ also include `sitemap.xml`, `robots.txt`, and `.nojekyll`.
 ## Licensing
 
 The source code, reusable template content, brand mark, and generic gallery
-imagery use the MIT License. Sichao Li's personal content, likeness, profile
-images, and notebook cover are excluded from reuse; see `LICENSE`.
+imagery use the MIT License. Personal content and likeness assets are excluded
+from reuse, and institutional marks remain the property of their owners; see
+[`ASSET-LICENSE.md`](./ASSET-LICENSE.md).

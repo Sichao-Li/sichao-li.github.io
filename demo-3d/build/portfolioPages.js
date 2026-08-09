@@ -7,7 +7,7 @@ import {
   statSync,
   writeFileSync,
 } from "node:fs";
-import { dirname, extname, resolve, sep } from "node:path";
+import { dirname, extname, relative, resolve, sep } from "node:path";
 import {
   renderRobots,
   renderSitemap,
@@ -71,6 +71,48 @@ function renderPagesDirectory(directory, pagesRoot, profile) {
     ) {
       writeFileSync(filePath, renderSourceFile(filePath, pagesRoot, profile));
     }
+  });
+}
+
+function listFiles(directory, root = directory) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const filePath = resolve(directory, entry.name);
+    return entry.isDirectory()
+      ? listFiles(filePath, root)
+      : [relative(root, filePath)];
+  });
+}
+
+function copyProfilePages(pagesSource, pagesOutput, profile) {
+  const pagePaths = [
+    ...profile.portfolioCategories.map(({ path }) => path),
+    "contact",
+    "cv",
+  ];
+  const allowedFiles = new Set(
+    pagePaths.map((pagePath) => `${pagePath}${sep}index.html`),
+  );
+  const sourceFiles = listFiles(pagesSource);
+  const unexpectedFiles = sourceFiles.filter(
+    (filePath) => !allowedFiles.has(filePath),
+  );
+  const missingFiles = [...allowedFiles].filter(
+    (filePath) => !sourceFiles.includes(filePath),
+  );
+
+  if (unexpectedFiles.length || missingFiles.length) {
+    const details = [
+      ...unexpectedFiles.map((filePath) => `unexpected: ${filePath}`),
+      ...missingFiles.map((filePath) => `missing: ${filePath}`),
+    ].join(", ");
+    throw new Error(`Invalid profile pages directory (${details})`);
+  }
+
+  pagePaths.forEach((pagePath) => {
+    const source = resolve(pagesSource, pagePath, "index.html");
+    const destination = resolve(pagesOutput, pagePath, "index.html");
+    mkdirSync(dirname(destination), { recursive: true });
+    cpSync(source, destination);
   });
 }
 
@@ -159,7 +201,7 @@ export function profileSitePages({
     closeBundle() {
       const output = resolve(projectRoot, "demo-3d", outputDirectory);
       const pagesOutput = resolve(output, "demo");
-      cpSync(pagesSource, pagesOutput, { recursive: true });
+      copyProfilePages(pagesSource, pagesOutput, profile);
       cpSync(
         resolve(sharedPagesSource, "room.css"),
         resolve(pagesOutput, "room.css"),
