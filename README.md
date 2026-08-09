@@ -1,29 +1,24 @@
 # Sichao Li Academic Portfolio
 
-This repository contains two content profiles powered by one React, Three.js,
-and Vite website engine:
+Source for [sichao-li.github.io](https://sichao-li.github.io), an interactive
+academic portfolio built with React, Three.js, and Vite.
 
-- `profiles/sichao/`: the personal site and default GitHub Pages build.
-- `profiles/template/`: a generic starter profile for reuse.
+This repository contains one personal content profile and one deployable site.
+The reusable starter is maintained separately in the
+`academic-portfolio-template` repository.
 
-The shared code lives in `demo-3d/`, `demo/`, and `site/`. Content changes do
-not require editing the 3D scene implementation.
-
-The personal profile is marked `public`; the starter is marked `template` so it
-cannot pass the release check until its placeholder identity is replaced.
-
-## Edit The Personal Site
-
-Start with [`profiles/sichao/README.md`](./profiles/sichao/README.md).
+## Edit Content
 
 - Edit identity, affiliations, profile links, and asset assignments in
-  `profiles/sichao/config.js`.
-- Edit the concise 3D-gallery text in `profiles/sichao/sections.js`.
-- Edit detailed content in `profiles/sichao/pages/<category>/index.html`.
-- Keep personal images in `public/assets/` and declare non-imported assets in
-  the profile configuration.
+  `profile/config.js`.
+- Edit concise text shown in the 3D gallery in `profile/sections.js`.
+- Edit detailed pages in `profile/pages/<category>/index.html`.
+- Add declared images beneath `public/assets/`.
 
-## Preview Both Versions
+The detailed pages use `{{site.*}}` tokens and renderer markers. Keep the
+existing `<!-- @site-* -->` comments when editing page HTML.
+
+## Run Locally
 
 Requirements: Node.js 20 or newer.
 
@@ -32,73 +27,45 @@ npm ci
 npm run dev
 ```
 
-The default command opens Sichao's site. To inspect the reusable starter:
-
-```bash
-npm run dev:template
-```
-
 Vite prints the local URL, normally <http://127.0.0.1:5173/>.
 
 ## Commands
 
-| Command                    | Purpose                                         |
-| -------------------------- | ----------------------------------------------- |
-| `npm run dev`              | Run Sichao's site locally                       |
-| `npm run dev:template`     | Run the reusable starter locally                |
-| `npm run check`            | Validate formatting and both content profiles   |
-| `npm run build`            | Build the personal site into `demo-3d/dist/`    |
-| `npm run build:template`   | Build the starter into `demo-3d/dist-template/` |
-| `npm run build:all`        | Build and audit both profiles                   |
-| `npm run check:build`      | Audit generated routes, links, and output files |
-| `npm run check:release`    | Validate the personal profile for publication   |
-| `npm run preview`          | Preview the personal production build           |
-| `npm run preview:template` | Preview the starter production build            |
+| Command                 | Purpose                                 |
+| ----------------------- | --------------------------------------- |
+| `npm run dev`           | Start the local development site        |
+| `npm run check`         | Validate formatting, routes, and assets |
+| `npm run check:release` | Validate public identity and metadata   |
+| `npm run build`         | Build and audit the production site     |
+| `npm run preview`       | Preview the production build locally    |
 
-## Project Structure
+## Structure
 
 ```text
-profiles/
-  sichao/                    Personal identity, gallery copy, and pages
-  template/                  Generic starter profile and reuse guide
-site/templates/              Shared static-page and metadata renderers
-site/config/                 Shared profile configuration utilities
-demo-3d/src/                 Shared React and Three.js gallery
-demo-3d/build/               Profile-aware Vite integration and checks
-demo/                        Shared detailed-page CSS and navigation behavior
-public/assets/               Personal and sample visual assets
+profile/                  Personal identity, gallery copy, and pages
+demo-3d/                  React and Three.js gallery engine
+demo/                     Detailed-page styles and navigation
+site/                     Configuration and static-page renderers
+public/assets/            Declared visual assets
+.github/workflows/        GitHub Pages deployment
 ```
 
 ## Deployment
 
-The GitHub Actions workflow checks both profiles and deploys only the personal
-build in `demo-3d/dist/`. Set `siteUrl` in `profiles/sichao/config.js`, choose
-**GitHub Actions** as the repository's Pages source, and push to `main`.
+Pushes to `main` run validation, build the static site into `demo-3d/dist/`, and
+deploy it through GitHub Pages. The complete 3D site runs without a server-side
+runtime.
 
-The production output is static HTML, CSS, JavaScript, and images. GitHub Pages
-supports the complete 3D version without a server-side runtime.
+Before publishing content changes, run:
 
-The workflow validates both profiles, performs the stricter personal release
-check, builds and audits both variants, and uploads only `demo-3d/dist/`.
-Production builds also include `sitemap.xml`, `robots.txt`, and `.nojekyll`.
-Only declared category `index.html` files can enter the generated `demo/`
-directory; unexpected notes, backups, and operating-system files fail the build.
-
-## Public Release Checklist
-
-1. Confirm `siteUrl`, email, affiliation, and profile links in
-   `profiles/sichao/config.js`.
-2. Add a redacted public PDF CV and update `cvAsset` and `cvHref`, or retain the
-   web CV fallback.
-3. Review dated news, funding claims, service records, and publication links.
-4. Run `npm run check && npm run check:release && npm run build:all`.
-5. Preview the production build with `npm run preview`.
-6. In GitHub, select **Settings > Pages > Source > GitHub Actions**, then push
-   `main`.
+```bash
+npm run check
+npm run check:release
+npm run build
+```
 
 ## Licensing
 
-The source code, reusable template content, brand mark, and generic gallery
-imagery use the MIT License. Personal content and likeness assets are excluded
-from reuse, and institutional marks remain the property of their owners; see
+The source code uses the MIT License. Personal content, likeness assets, and
+institutional marks have separate restrictions described in
 [`ASSET-LICENSE.md`](./ASSET-LICENSE.md).

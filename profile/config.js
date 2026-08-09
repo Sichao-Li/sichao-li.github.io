@@ -1,4 +1,4 @@
-import { defineProfile } from "../../site/config/defineProfile.js";
+import { defineProfile } from "../site/config/defineProfile.js";
 
 export const siteConfig = Object.freeze({
   name: "Sichao Li",

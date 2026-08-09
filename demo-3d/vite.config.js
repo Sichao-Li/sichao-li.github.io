@@ -6,12 +6,10 @@ import { profileSitePages } from "./build/portfolioPages.js";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-export default defineConfig(async ({ mode }) => {
-  const profileName = mode === "template" ? "template" : "sichao";
-  const profileRoot = resolve(projectRoot, "profiles", profileName);
+export default defineConfig(async () => {
+  const profileRoot = resolve(projectRoot, "profile");
   const profileModule = resolve(profileRoot, "profile.js");
   const profile = await import(pathToFileURL(profileModule));
-  const outputDirectory = profileName === "sichao" ? "dist" : "dist-template";
 
   return {
     base: "./",
@@ -24,14 +22,14 @@ export default defineConfig(async ({ mode }) => {
     plugins: [
       react(),
       profileSitePages({
-        outputDirectory,
+        outputDirectory: "dist",
         profile,
         profileRoot,
         projectRoot,
       }),
     ],
     build: {
-      outDir: outputDirectory,
+      outDir: "dist",
       emptyOutDir: true,
     },
   };

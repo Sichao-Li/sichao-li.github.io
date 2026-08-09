@@ -11,9 +11,8 @@ import {
 } from "../../site/templates/renderRoomPage.js";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
-const profileName = process.argv[2] || "sichao";
 const releaseMode = process.argv.includes("--release");
-const profileRoot = resolve(projectRoot, "profiles", profileName);
+const profileRoot = resolve(projectRoot, "profile");
 const profile = await import(pathToFileURL(resolve(profileRoot, "profile.js")));
 const {
   deployedPublicAssets,
@@ -388,7 +387,7 @@ contactTemplateMarkers.forEach((marker) => {
 if (releaseMode) {
   assert(
     siteConfig.publicationStatus === "public",
-    `Profile ${profileName} is not marked public`,
+    "Profile is not marked public",
   );
   assert(
     !new URL(siteConfig.siteUrl).hostname.endsWith("example.com"),
@@ -406,6 +405,6 @@ if (errors.length) {
   process.exitCode = 1;
 } else {
   console.log(
-    `Site integrity check passed for ${profileName} (${sections.length} sections, ${roomPages.length} room pages).`,
+    `Site integrity check passed for ${siteConfig.name} (${sections.length} sections, ${roomPages.length} room pages).`,
   );
 }
