@@ -88,19 +88,19 @@ export const sections = [
     action: "View funding record",
     entries: [
       {
-        label: "2026 / Under review",
-        title: "Three research funding applications",
-        meta: "Breakthrough Project · Career Transition · Trustworthy AI",
-      },
-      {
         label: "2026 / Awarded",
-        title: "TPU Builder Award and Google Cloud Research Credits",
-        meta: "Approximately USD 7,500",
+        title: "Digital Minds Career Development Fellowship",
+        meta: "Sole PI · USD 60,000 · Longview Philanthropy",
       },
       {
-        label: "2024–2025 / Awarded",
-        title: "Lambda, TALO, and ANU travel support",
-        meta: "Research infrastructure · innovation · academic travel",
+        label: "2026 / Under review",
+        title: "Two research funding applications",
+        meta: "Breakthrough Project · Science of Trustworthy AI",
+      },
+      {
+        label: "2024–2026 / Awarded",
+        title: "Computing, innovation, and travel support",
+        meta: "Google Cloud · TPU Builder · Lambda · TALO · ANU",
       },
     ],
   }),
